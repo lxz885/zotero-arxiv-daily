@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 08 * * *'
+    - cron: '20 15 * * *'
 
 jobs:
   calculate-and-send:
